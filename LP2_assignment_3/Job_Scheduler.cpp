@@ -60,12 +60,19 @@ void JobSchedular(job arr[], int n){
 }
 
 int main(){
+    int x;cout<<"Enter number of jobs: ";cin>>x;
+    job arr[x];
+    for(int i=0;i<x;i++){
+        cout<<"Enter id: ";cin>>arr[i].id;
+        cout<<"Enter deadline: ";cin>>arr[i].dead;
+        cout<<"Enter profit: ";cin>>arr[i].profit;
+    }
 
-    job arr[] = { {'a', 2, 100}, 
-                  {'b', 1, 19}, 
-                  {'c', 2, 27}, 
-                  {'d', 3, 15}, 
-                  {'e', 3, 125} };
+    // job arr[] = { {'a', 2, 100}, 
+    //               {'b', 1, 19}, 
+    //               {'c', 2, 27}, 
+    //               {'d', 3, 15}, 
+    //               {'e', 3, 125} };
                                        
 
     int n = sizeof(arr) / sizeof(arr[0]);
