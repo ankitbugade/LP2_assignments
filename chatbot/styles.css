@@ -1,0 +1,40 @@
+body{
+    font-family: monospace;
+    background-color: rgb(245, 238, 229);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+h1{
+    font-family: monospace;
+}
+
+#input{
+    font-family: monospace;
+    background-color: rgb(245, 238, 229);
+    border-radius: 5px;
+    min-width: 200px;
+    min-height: 20px;
+
+}
+
+#enter{
+    background-color: bisque;
+    min-height: 20px;
+    padding: 4px 8px;
+    border-radius: 6px;
+}
+
+.message-box{
+    margin: 6px 6px;
+    max-width: 200px;
+}
+
+.bot-message{
+    margin: 6px 0px;
+    padding-bottom: 6px ;
+    border-bottom: solid 1px black;
+    /* margin-left: -5px; */
+}
